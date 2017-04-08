@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>WEB_前端工程师</title>
+    <link rel="stylesheet" href="css/swiper-3.4.2.min.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <script>
+        var desW=640,
+                winW=document.documentElement.clientWidth>=640?640:document.documentElement.clientWidth;
+        document.documentElement.style.fontSize=winW/desW*100 + 'px';
+    </script>
+</head>
+<body>
+<div class="swiper-container">
+    <div class="music musicCur">
+        <audio src="audio/TryEverything.mp3" loop preload="none" id="everything"></audio>
+    </div>
+    <div class="swiper-wrapper">
+        <div class="swiper-slide slide1">
+            <h3 class="title"><i>&nbsp;</i>个人简历</h3>
+            <div class="icon-hill">开</div>
+        </div>
+        <div class="swiper-slide slide2">
+            <ul class="resume-list">
+                <li><a href="#page3">个人信息</a></li>
+                <li><a href="#page4">项目经验</a></li>
+                <li><a href="#page5">专业技能</a></li>
+                <li><a href="#page6">自我评价</a></li>
+                <li><a href="#page7">联系我</a></li>
+            </ul>
+        </div>
+        <div class="swiper-slide slide3">
+            <h3>个人信息</h3>
+            <div class="bg">
+                <ul class="info">
+                    <li><strong>姓  　名：</strong>郑亚杰</li>
+                    <li><strong>性    别：</strong>女</li>
+                    <li><strong>学  　历：</strong>本科</li>
+                    <li><strong>工作年限：</strong>2年</li>
+                    <li><strong>电　  话：</strong>18601255264</li>
+                    <li><strong>邮  　箱：</strong>zhengyajie0421@163.com</li>
+                    <li><strong>目前状况：</strong>已离职</li>
+                </ul>
+                <i class="line t">&nbsp;</i>
+                <i class="line r">&nbsp;</i>
+                <i class="line b">&nbsp;</i>
+                <i class="line l">&nbsp;</i>
+            </div>
+        </div>
+        <div class="swiper-slide slide4">
+            <h3>工作经验+项目经验</h3>
+            <ul class="work-list">
+                <li>
+                    <h4>北京腾瑞明技术股份有限公司 </h4>
+                    <p>2015年4月  – 2017年3月</p>
+                    <div>
+                        工作描述：1.制定前端开发规范，负责前端的代码结构设计和实施。
+                        2.承担Web前端开发任务，负责公司前端产品组件的设计、规划及开发。
+                        3.确保所有web网页能支持指定的浏览器。
+                        4.负责前端js的开发和测试。
+                        5.负责前端的维护、优化、重构。
+                        6.负责前端html、css、js的性能调优。
+                    </div>
+                </li>
+                <li>
+                    <h4>项目名称：蛋糕叔叔官网 ＋ webApp</h4>
+                    <div>责任描述：根据产品需求分析给出最优的网页前端解决方案并完成，负责项目页面的搭建以及动态数据交互</div>
+                    <p>1、利用html、css/css3进行页面布局搭建基本页面</p>
+                    <p>2、使用less预编译语言，构建页面样式</p>
+                    <p>3、使用iScroll实现延迟加载</p>
+                    <p>4、使用jQuery、Zepto实现动态效果</p>
+                    <p>心得：熟练了jQuery的使用，对前端项目优化有了深入的了解</p>
+                </li>
+                <li>
+                    <h4>项目名称：一元蛋糕</h4>
+                    <div>责任描述：该项目由我独立开发完成</div>
+                    <p>1、利用html、css/css3进行页面布局搭建基本页面</p>
+                    <p>2、使用swiper插件实现轮播图</p>
+                    <p>3、使用ejs模板引擎，绑定后台数据并渲染页面</p>
+                    <p>4、使用zepto实现页面动态效果</p>
+                    <p>心得：对html5 有了更深入的了解，对前端的项目流程有了一定的认识，为以后的项目积累了经验</p>
+                </li>
+                <li>
+                    <h4>项目名称：商品管理系统</h4>
+                    <div>责任描述：主要负责页面的搭建以及基本的数据交互</div>
+                    <p>1、利用html、css、Bootstrap进行页面布局。</p>
+                    <p> 2、用angularjs进行开发，实现单页面应用。</p>
+                    <p>3、用nodejs开发后台。</p>
+                    <p>心得：能够很好地运用bootstrap框架进行前端页面的搭建，提高了工作效率</p>
+                </li>
+                <li>
+                    <h4>项目名称：积分荟官网</h4>
+                    <div>责任描述：该项目由团队合作开发，主要负责相关页面搭建，和后台的数据交互</div>
+                    <p> 1、利用html、css进行页面布局搭建基本页面</p>
+                    <p> 2、利用jQuery实现动态效果与后台进行交互</p>
+                    <p>3、使用ejs模板引擎，绑定后台数据并渲染页面</p>
+                    <p>心得：熟练使用html、css进行页面的搭建，深刻理解web标准，为以后的项目打下良好的基础</p>
+                </li>
+            </ul>
+        </div>
+        <div class="swiper-slide slide5">
+            <h3>专业技能</h3>
+            <ul class="skill-text">
+                <li>熟练掌握 HTML+CSS，能够很好的把握 IE 及其他主流浏览器的兼容性问题</li>
+                <li>熟练使用 Bootstrap、jQuery、Zepto、Swiper、iScroll 等进行开发</li>
+                <li>熟练使用 Ajax、JSONP 并有独立通过已定义接口完成前后端交互的能力</li>
+                <li>熟悉 h5、css3，熟悉响应式开发及移动端 webApp 开发</li>
+                <li>熟悉Angular、React、Express主流框架</li>
+                <li>掌握git 管理的基本使用</li>
+                <li>了解搜索引擎优化</li>
+            </ul>
+        </div>
+        <div class="swiper-slide slide6">
+            <h3>自我评价</h3>
+            <div class="assess-wrap">
+                <ul class="assess-box">
+                    <li>团队合作</li>
+                    <li>诚实守信</li>
+                    <li>积极进取</li>
+                    <li>沟通协作</li>
+                    <li>稳重严谨</li>
+                    <li>认真负责</li>
+                </ul>
+            </div>
+        </div>
+        <div class="swiper-slide slide7">
+            <h3>联系我</h3>
+            <img class="head-pic" src="img/srx_head.jpg" alt=""/>
+            <div class="tc"><strong>郑亚杰<br />前端工程师</strong></div>
+            <a class="icon-tel" href="tel:18601255264">Call Me</a>
+        </div>
+    </div>
+    <div class="icon-hill"></div>
+</div>
+<script src="js/zepto.min.js"></script>
+<script src="js/swiper-3.4.2.min.js"></script>
+<script>
+    var mySwiper = new Swiper ('.swiper-container', {
+        direction: 'vertical',
+        loop: true,
+        grabCursor:true,
+        nextButton: '.icon-hill',
+        onTransitionEnd:function(swiper){
+            var curIndex=swiper.activeIndex;
+            var slides=swiper.slides;
+            [].forEach.call(slides,function(item,index){
+                item.id='';
+                if(index==curIndex){
+                    slides[curIndex].id=curIndex==0?'page'+(slides.length-2):curIndex==slides.length-1?'page1':"page"+curIndex;
+                }
+            });
+        }
+    });
+
+    var music=document.querySelector('.music');
+    var everything=document.querySelector('#everything');
+    window.setTimeout(function(){
+        everything.play();
+        music.style.opacity=1;
+        music.className='music musicCur';
+    },1000);
+    music.addEventListener('click',function(){
+        if(everything.paused){
+            everything.play();//播放
+            music.className='music musicCur'
+        }else{
+            everything.pause();//停止
+            music.className='music';
+        }
+    });
+
+    //->只要在移动端使用TOUCH MOVE事件实现滑动,都需要把当前文档滑动的默认行为阻止掉;移动端的浏览器大部分都有自身的滑动操作,例如:滑动的时候是切换到下一个页卡区域...
+    $(document).on('touchmove', function (e) {
+        e.preventDefault();
+    });
+
+    var $workList = $('.work-list');
+    //->首先在盒子的自定义属性上记录一下起始的旋转角度
+    $workList.attr({
+        rotateY: 0
+    });
+    $workList.on('touchstart', function (e) {
+        var point = e.changedTouches[0];
+        $(this).attr({
+            strX: point.pageX,
+            changeX: 0,
+            isMove: false
+        });
+    }).on('touchmove', function (e) {
+        var point = e.changedTouches[0],
+                changeX = point.pageX - $(this).attr('strX');
+        $(this).attr({
+            changeX: changeX
+        });
+    }).on('touchend', function (e) {
+        var changeX = parseFloat($(this).attr('changeX'));
+        if (Math.abs(changeX) < 10 ) return;
+
+        var rotateY = parseFloat($(this).attr('rotateY'));
+        if(changeX>10){
+            rotateY = rotateY + 72;
+        }
+        if(changeX<-10){
+            rotateY = rotateY - 72;
+        }
+        $(this).css({
+            transition: '.5s',
+            transform: 'rotateY(' + rotateY + 'deg)'
+        }).attr({
+            rotateY: rotateY
+        })
+    });
+</script>
+
+</body>
+</html>
